@@ -17,14 +17,14 @@
 
 ## Frustrations
 
-- Hoy solo tiene visibilidad real de facturación cuando Javier termina de cerrar el mes, demasiado tarde para actuar sobre problemas.
-- Le llegan números distintos según quién se los prepare (Marta o Javier), y no siempre cuadran entre sí.
+- Hoy solo tiene visibilidad real de facturación cuando Carlos termina de cerrar el mes, demasiado tarde para actuar sobre problemas.
+- Le llegan números distintos según quién se los prepare (David o Carlos), y no siempre cuadran entre sí.
 - Le cuesta anticipar si necesitan contratar a alguien nuevo hasta que el problema de capacidad ya es evidente.
 
 ## Typical tasks
 
 - Revisar mensualmente (a veces trimestralmente) un resumen de facturación y previsión.
-- Reunirse con Javier y Marta para contrastar cifras antes de tomar decisiones.
+- Reunirse con Carlos y David para contrastar cifras antes de tomar decisiones.
 - Tomar decisiones de contratación, pricing y foco de clientes a partir de esas cifras.
 
 ## Device preferences

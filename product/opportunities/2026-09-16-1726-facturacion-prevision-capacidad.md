@@ -10,11 +10,11 @@ El gestor operativo y el socio-gerente de administración dedican varios días c
 
 ## Segmento y personas
 
-- **David Solé** (gestor de operaciones) — sufre directo: asigna sin visión clara de capacidad futura.
-- **Carlos Roldán** (socio-gerente) — sufre directo: factura a mano cada mes, varios días perdidos.
-- **Elvira Ametller** (formadora junior) — sufre la consecuencia: acaba sobrecargada sin que nadie lo detecte a tiempo.
-- **Elena Puig** (directora) — sufre indirecto: decide contrataciones/pricing sin datos fiables.
-- **Ramón Ferrer** — no sufre este problema; de hecho preferiría que se siguiera resolviendo "a mano".
+- **Carlos Roldán** (socio-gerente) — **primaria**, sufre directo: factura a mano cada mes, varios días perdidos. Es la persona más directamente relacionada con esta oportunidad.
+- **David Solé** (gestor de operaciones) — **secundaria**, sufre directo: asigna sin visión clara de capacidad futura.
+- **Elvira Ametller** (formadora junior) — **secundaria**, sufre la consecuencia: acaba sobrecargada sin que nadie lo detecte a tiempo.
+- **Elena Puig** (directora) — **terciaria**, sufre indirecto: decide contrataciones/pricing sin datos fiables.
+- **Ramón Ferrer** — no aplica (no sufre este problema); de hecho preferiría que se siguiera resolviendo "a mano".
 
 No se detecta ninguna persona que falte para este segmento.
 

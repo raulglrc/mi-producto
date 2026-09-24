@@ -117,3 +117,20 @@ Es control de calidad de la guía, no evidencia. Lo que dijo el arquetipo no se 
 - La duración y el reparto de tiempos: con los cambios, el recorrido cabe en 45 min.
 - El plan de reclutamiento: la pregunta de referidos ya permite añadir a una tercera persona.
 - Las preguntas de cierre: funcionaron.
+
+### 2026-09-24: segunda pasada con `product/personas/david-sole.md` (sintético)
+
+Sirve para comprobar los cambios de la primera pasada con el otro perfil. Es control de calidad de la guía, no evidencia.
+
+**Qué funcionó de la primera ronda:** sin la lista de ejemplos, David nombró sus fuentes por sí solo; la repregunta sobre la espera sacó el tiempo real de espera; y la apertura del objetivo 3 separada por perfil dio un episodio concreto con consecuencias.
+
+**Qué cambió:**
+- **Objetivo 1:** la apertura depende del perfil. Para David, el punto de partida es la actualización del lunes pasado, porque su coste es semanal y el cierre mensual solo le lleva una mañana. Antes, su coste de verdad era una única pregunta al final y sin repreguntas. El cierre mensual de David pasa a ser una repregunta.
+- **Objetivo 1:** "Esos días, ¿qué dejaste de hacer?" pasa a "¿qué harías con ese rato?… la última vez que algo se quedó sin hacer". La versión anterior daba "nada" cuando el coste está integrado en la rutina. La introdujo la primera pasada.
+- **Objetivo 2:** la pregunta de la factura cuestionada queda "Solo a Carlos".
+- **Objetivo 3:** alternativa para quien no vivió el cambio de herramienta. Sin ella, la creencia 3 se quedaba sin evidencia con David. La introdujo la primera pasada.
+- **Objetivo 3:** nota para desviar la sobrecarga cruzada entre áreas a la guía de la creencia 2.
+
+**Qué se dejó igual a propósito:**
+- El plan de reclutamiento: los referidos de David apuntan al director de formación (que lleva el calendario de cursos), y el plan ya permite añadirlo.
+- Las repreguntas del objetivo 2, que funcionaron con los dos perfiles.

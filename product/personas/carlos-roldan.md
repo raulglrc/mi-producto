@@ -2,6 +2,7 @@
 
 > "Cada mes pierdo tres días enteros solo para saber cuánto le toca facturar a cada cliente."
 
+- **type:** primary
 - **Role:** Socio-gerente, responsable de administración y facturación
 - **Age range:** 45–54
 - **Location:** sede central de la consultora

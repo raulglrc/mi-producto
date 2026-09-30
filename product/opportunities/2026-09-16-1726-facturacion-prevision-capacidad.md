@@ -57,3 +57,10 @@ Producto interno — mueve la métrica de los sponsors (el propio gestor y direc
 ## Candidate ideas (not evaluated)
 
 Ninguna surgida durante este framing — el input original describía el área de la oportunidad, no una solución concreta.
+
+Evaluadas en [2026-09-30-1202-facturacion-prevision-capacidad.md](../solutions/2026-09-30-1202-facturacion-prevision-capacidad.md):
+- `dedicagest-a-medida` — chosen (en prueba en paralelo)
+- `fuente-unica-asignaciones` — chosen (en prueba en paralelo)
+- `bizmeo-en-origen` — chosen (en prueba en paralelo)
+- `saas-psa` — discarded (se quiere evitar un SaaS)
+- `plantilla-cierre` — discarded (motivo no indicado)

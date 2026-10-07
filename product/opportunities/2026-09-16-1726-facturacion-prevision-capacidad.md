@@ -1,65 +1,86 @@
 ---
 status: framed
+reframed: 2026-10-07
 segment: Gestión operativa y administrativa de una consultora/academia de 15 personas (consultores y formadores)
-personas: david-sole, carlos-roldan, elvira-ametller, elena-puig
+personas: carlos-roldan, david-sole, elvira-ametller, elena-puig
 ---
 
-# Opportunity: Facturación manual y falta de previsión de capacidad/facturación
+# Opportunity: el cierre y la previsión dependen de hechos que no están registrados en ningún sitio
 
-El gestor operativo y el socio-gerente de administración dedican varios días cada mes a cruzar a mano Bizmeo, tarifas y asignaciones para poder facturar — y no tienen ninguna vista de capacidad o facturación futura, así que toman decisiones (contratar, aceptar un cliente nuevo) sin datos, y sobrecargan a empleados con formaciones y servicios sin darse cuenta.
+Quien factura (Carlos) y quien planifica (David) pierden días cada mes persiguiendo hechos que no están registrados en ningún sitio: cursos cancelados o aplazados, ausencias y bajas, acuerdos con clientes, horas sin imputar. Por eso la última factura sale tarde, y las respuestas sobre capacidad y previsión se dan sin esos hechos, con coste: externos no previstos, margen perdido, facturación aplazada y sobrecarga que nadie ve a tiempo. **Por qué ahora:** la exploración del 2026-09-30 eligió soluciones con la formulación anterior («cruzar a mano»), y la evidencia nueva apunta a que el cruce es la parte corta.
+
+> **Reencuadre 2026-10-07.** La formulación del 2026-09-16 («dedican varios días a cruzar a mano Bizmeo, tarifas y asignaciones») pasa a ser una parte menor del problema. Toda la evidencia que lo motiva es `synthetic`. Si las entrevistas reales con Carlos y David muestran que el cruce mecánico es más de la mitad del cierre, se vuelve a la formulación anterior.
 
 ## Segmento y personas
 
-- **Carlos Roldán** (socio-gerente) — **primaria**, sufre directo y paga: factura a mano cada mes, varios días perdidos. Es la persona más directamente relacionada con esta oportunidad.
-- **David Solé** (gestor de operaciones) — **secundaria**, sufre directo: asigna sin visión clara de capacidad futura.
-- **Elvira Ametller** (formadora) — **secundaria**, sufre la consecuencia: acaba sobrecargada sin que nadie lo detecte a tiempo.
-- **Elena Puig** (directora) — **terciaria**, sufre indirecto: decide contrataciones/pricing sin datos fiables.
-- **Ramón Ferrer** — no aplica (no sufre este problema) queda fuera de la oportunidad, no va a cambiar su forma de operar; de hecho preferiría que se siguiera resolviendo "a mano".
+| Persona | Tipo | ¿Sufre este problema? |
+|---|---|---|
+| **Carlos Roldán** (socio-gerente, facturación) | primary | Sí, directamente: persigue rezagados, dudas pendientes y condiciones de palabra antes de facturar |
+| **David Solé** (gestor de operaciones) | secondary *(type propuesto, no está en su fichero)* | Sí, directamente: responde sobre capacidad sin ausencias ni encargos de los directores |
+| **Elvira Ametller** (formadora) | secondary *(type propuesto)* | Sí, la consecuencia: sobrecarga que nadie detecta a tiempo |
+| **Elena Puig** (directora general) | tertiary *(type propuesto)* | Indirectamente: decide contrataciones y aceptar clientes con previsiones poco fiables. Es quien responde la creencia de viabilidad |
+| **Ramón Ferrer** (socio-fundador) | negative *(type propuesto)* | No: prefiere seguir con su Excel |
 
-No se detecta ninguna persona que falte para este segmento.
+**Persona que falta:** el **director/a de área que asigna** (consultoría y formación). Tiene los hechos que los demás persiguen: qué se canceló, qué se aplazó, a quién asignó. Hoy ninguna persona lo modela → `/generate-personas`.
+
+*Nota:* `javier-roldan.md`, `marta-sole.md` y `pol-ametller.md` repiten el contenido de Carlos, David y Elvira, y no se han usado.
 
 ## Señales
 
 | Señal | Provenance | Source |
 |---|---|---|
-| Carlos dedica cerca de tres días al mes a cruzar Bizmeo con tarifas para facturar | synthetic | `product/personas/carlos-roldan.md` |
-| David pierde 3-4 horas/semana cruzando su Excel con Bizmeo | synthetic | `product/personas/david-sole.md` |
-| Elvira no tiene ninguna vista de su carga frente a la de sus compañeros | synthetic | `product/personas/elvira-ametller.md` |
-| Hay sobrecarga real de empleados por falta de datos/coordinación compartida entre el director de consultoría y el director de formación | unverified | Raul (stakeholder), conversación |
+| El cruce en sí cuesta entre 5 minutos y media jornada al mes; el resto del cierre (1,5-3 días) se va en averiguar qué pasó (9 de 10) | synthetic | `insights/2026-09-30-1154-ensayo-entrevistas-cierre-capacidad.md` |
+| Respuestas de capacidad en 10-20 minutos sin ausencias ni encargos de otros, con coste (≈2.000 €, margen perdido, 2 semanas de facturación aplazada, previsión un 18 % por debajo) | synthetic | ídem |
+| El registro tardío bloquea facturas concretas (7 de 10); lo ven como cultura | synthetic | ídem |
+| Carlos: cierre del día 1 al 6, con una factura retrasada al 11; dudas pendientes en un pósit; previsión montada de noche con tarifa media y sin vacaciones | synthetic | `insights/2026-09-24-1343-carlos-roldan-cierre-facturacion.md` |
+| Para una previsión fiable hacen falta tarifas, ausencias y cartera ponderada por probabilidad | secondary | `research/2026-09-16-1801-mercado-capacity-billing-forecast.md` |
+| Carlos dedica cerca de tres días al mes al cierre; David, 3-4 h a la semana | synthetic | `personas/carlos-roldan.md`, `personas/david-sole.md` |
+| Hay sobrecarga real por falta de datos compartidos entre los dos directores | unverified | Raul (stakeholder), conversación |
 | Resolver la facturación ahorraría aproximadamente 1 jornada al mes al responsable financiero | unverified | Raul (stakeholder), conversación |
+
+> Los dos ficheros de insights llevan hoy `source: real` en la cabecera, pero se extrajeron de transcripciones `synthetic` (`interviews/2026-09-24-1312-carlos-roldan.md` y `notas/ensayo/`). Aquí cuentan como `synthetic` hasta que existan transcripciones reales y su propio fichero de insights. La encuesta de ensayo (`notas/ensayo/`) no cuenta como señal.
 
 ## Resultado de negocio
 
-Producto interno — mueve la métrica de los sponsors (el propio gestor y dirección) en tres frentes:
-- Tiempo administrativo ahorrado (horas/días al mes que Carlos y David dejan de perder).
-- Reducción de sobrecarga/riesgo de fuga de empleados por asignaciones descoordinadas.
-- Visión estratégica fiable para que Elena decida contrataciones, tarifas y foco de clientes.
+Producto interno, con dos métricas para los sponsors (el gestor y dirección):
+
+- **Principal: el día del mes en que sale la última factura.** Valor de partida sintético: entre el día 6 y el 11. El valor real se mide en el cierre de octubre.
+- **Secundaria: euros perdidos por decisiones de capacidad tomadas sin datos.** Externos no previstos, margen perdido, facturación aplazada.
+- **Vigilado:** la sobrecarga de empleados (que no empeore y que se detecte antes).
 
 ## Restricciones
 
-- Cualquier solución debe partir de/integrarse con los datos que ya se registran en Bizmeo — no lo sustituye.
+- Cualquier solución debe partir de los datos que ya se registran en Bizmeo, o integrarse con ellos. No lo sustituye.
 - Presupuesto y recursos limitados: empresa de 15 personas, sin equipo de desarrollo propio.
+- Se quiere evitar un SaaS (decisión del 2026-09-30, `corrections.md`).
 
 ## Creencias
 
-- [product] [value] El tiempo que el gestor dedica hoy a cruzar manualmente dedicaciones (Bizmeo), clientes y cursos para facturar y prever capacidad es lo bastante grande (varias horas/semana) como para que automatizarlo sea una mejora que el gestor note y valore de inmediato.
-- [product] [viability] La dirección mantendrá el patrocinio del proyecto si ve, en un plazo razonable, una reducción medible del tiempo dedicado a facturación y una previsión de facturación a corto/medio/largo plazo que hoy no tienen.
-- [opportunity: facturacion-prevision-capacidad] [value] La falta de datos compartidos entre el director de consultoría y el director de formación es lo que hoy provoca que se sobrecargue a empleados con formaciones y servicios sin que nadie lo detecte a tiempo.
+Referenciadas del registro de `product/overview.md`:
+
+- (1) [product] [value] El tiempo de cruce manual es lo bastante grande como para que automatizarlo se note. *Con este reencuadre es la hipótesis rival de la nueva creencia; las mismas mediciones resuelven las dos.*
+- (2) [opportunity: facturacion-prevision-capacidad] [value] La falta de datos compartidos entre los dos directores provoca la sobrecarga.
+- (4) [product] [viability] La dirección mantendrá el patrocinio si ve una reducción medible y una previsión.
+- (5) [product] [viability] Cruzar solo dedicaciones con clientes no bastará para una previsión fiable.
+
+Nueva (propuesta para el registro):
+
+- [opportunity: facturacion-prevision-capacidad] [value] En los 2 próximos cierres reales, al menos el 60 % del tiempo de cierre de Carlos y David se va en averiguar hechos no registrados (cancelaciones, aplazamientos, ausencias, acuerdos, horas sin imputar), no en cruzar datos. Falso si el cruce mecánico supera el 50 %.
 
 ## Agenda de investigación
 
-| Creencia                                                              | Instrumento                                                                                                                                 | Decisión que desbloquea                                                                                      | Para cuándo                                                    |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- |
-| [product] [value] tiempo perdido facturando a mano                    | Revisar los últimos 2-3 cierres de facturación con Carlos y David para medir el tiempo real invertido (dato ya existente / interview breve) | Confirma si el ahorro de tiempo justifica construir la herramienta frente a un arreglo más ligero            | Antes de escribir la spec                                      |
-| [product] [viability] dirección mantiene el patrocinio                | `/design-interview` breve con Elena/dirección para fijar el umbral concreto (cuánta reducción de tiempo / qué previsión necesitan ver)      | Fija el criterio de éxito que dirección exigirá                                                              | Antes de la spec                                               |
-| [opportunity] falta de coordinación entre directores causa sobrecarga | `/design-interview` con el director de consultoría y el de formación para verificar casos concretos de sobrecarga por descoordinación       | Confirma si la causa raíz es realmente la falta de datos compartidos (y no otra cosa, ej. exceso de demanda) | Antes de priorizar esta oportunidad frente a la de facturación |
+| Creencia | Instrumento más barato | Decisión que desbloquea | Para cuándo |
+|---|---|---|---|
+| Nueva [opportunity] [value] hechos no registrados, y (1) como rival | Las 2 entrevistas reales con la guía `interview-guides/2026-09-24-1201-tiempo-cierre-facturacion.md`, más un registro por pasos del cierre de octubre (paso, minutos, qué se esperaba) | Si gana el cruce: A1 tal como está. Si ganan los hechos: A1 se redefine (capturar hechos, no solo cruzar) y A3 sube | Cierre de octubre (1-6 nov.), antes de `/clarify-idea` |
+| (2) descoordinación entre directores | Entrevista con los dos directores, más el piloto de A3 `fuente-unica-asignaciones` | Priorizar A3 frente a A1 | Noviembre |
+| (4) patrocinio de dirección | Entrevista breve con Elena: qué día de última factura y qué previsión le bastan | Fija el umbral de éxito de la métrica principal | Antes de `/write-spec` |
+| (5) variables de la previsión | Ya apoyada (secondary). En las entrevistas reales, confirmar qué hechos faltan más a menudo | Qué datos captura primero cualquier solución | Con las entrevistas reales |
 
 ## Candidate ideas (not evaluated)
 
-Ninguna surgida durante este framing — el input original describía el área de la oportunidad, no una solución concreta.
+En el framing original no surgió ninguna. Las alternativas ya se evaluaron en [2026-09-30-1202-facturacion-prevision-capacidad.md](../solutions/2026-09-30-1202-facturacion-prevision-capacidad.md):
 
-Evaluadas en [2026-09-30-1202-facturacion-prevision-capacidad.md](../solutions/2026-09-30-1202-facturacion-prevision-capacidad.md):
-- `dedicagest-a-medida` — chosen (en prueba en paralelo)
+- `dedicagest-a-medida` — chosen (en prueba en paralelo). *Con el reencuadre, su creencia de valor (11) depende de que el cruce mecánico sea grande, que es justo lo que se pone en duda; revisar tras el cierre de octubre.*
 - `fuente-unica-asignaciones` — chosen (en prueba en paralelo)
 - `bizmeo-en-origen` — chosen (en prueba en paralelo)
 - `saas-psa` — discarded (se quiere evitar un SaaS)

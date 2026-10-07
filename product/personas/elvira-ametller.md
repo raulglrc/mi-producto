@@ -2,6 +2,7 @@
 
 > "Mientras registre mis horas, lo demás no es cosa mía... aunque me gustaría saber si voy sobrecargada antes de que me lo digan."
 
+- **type:** secondary
 - **Role:** Formador y consultor junior
 - **Age range:** 24–29
 - **Location:** oficina y clientes, según el proyecto

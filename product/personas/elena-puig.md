@@ -2,6 +2,7 @@
 
 > "No necesito ver cada fila de datos, necesito saber si vamos bien o mal antes de que sea tarde."
 
+- **type:** tertiary
 - **Role:** Directora general y socia
 - **Age range:** 41–50
 - **Location:** sede central de la consultora, con viajes frecuentes a clientes

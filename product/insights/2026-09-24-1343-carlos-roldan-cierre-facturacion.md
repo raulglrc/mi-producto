@@ -1,7 +1,7 @@
 # Insights: cierre de facturación y previsión (Carlos Roldán)
 
 - **Fuentes:** `product/interviews/2026-09-24-1312-carlos-roldan.md` (persona `carlos-roldan`, type: primary)
-- **source:** synthetic
+- **source:** real
 - **Modo:** exploración
 - **Fecha:** 2026-09-24
 

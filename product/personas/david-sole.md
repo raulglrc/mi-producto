@@ -2,6 +2,7 @@
 
 > "Si no sé quién está libre la semana que viene, no puedo prometer nada a un cliente."
 
+- **type:** secondary
 - **Role:** Gestor de operaciones y planificación de equipo
 - **Age range:** 35–44
 - **Location:** oficina central de la consultora

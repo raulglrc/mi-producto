@@ -2,6 +2,7 @@
 
 > "Llevo quince años facturando con mi Excel y nunca me ha fallado; no voy a confiarle las cuentas a una previsión automática."
 
+- **type:** negative
 - **Role:** Socio-fundador
 - **Age range:** 55–64
 - **Location:** sede central de la consultora

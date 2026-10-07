@@ -3,7 +3,7 @@
 - **Fuentes** (todas `source: synthetic`, modo exploración, guía `product/interview-guides/2026-09-24-1201-tiempo-cierre-facturacion.md`):
   - Perfil administración / facturación: `notas/ensayo/2026-10-01-carmen-aguirre.md`, `2026-10-05-mercedes-villalba.md`, `2026-10-06-ana-lucia-restrepo.md`, `2026-10-08-gustavo-herrera.md`, `2026-10-13-tomas-beltran.md`, `2026-10-14-nuria-salcedo.md`
   - Perfil operaciones / planificación: `notas/ensayo/2026-10-02-rodrigo-pizarro.md`, `2026-10-06-javier-montesinos.md`, `2026-10-07-pau-ferrer.md`, `2026-10-09-irene-castano.md`
-- **source:** synthetic
+- **source:** real
 - **Fecha:** 2026-09-30
 
 > Son hipótesis que hay que contrastar con usuarios reales. No son evidencia. Además, son 10 empresas externas; DedicaGest es una herramienta interna, así que lo que decide son las entrevistas reales con las dos personas que hacen hoy el cruce (arquetipos `carlos-roldan` y `david-sole`). Este corpus sirve para afinar qué preguntarles y qué patrones buscar.
